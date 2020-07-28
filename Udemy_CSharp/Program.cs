@@ -10,19 +10,140 @@ namespace Udemy_CSharp
     {
         static void Main(string[] args)
         {
-            string str1 = "abcde";
-            string str2 = "abcde";
 
-            bool areEqual = str1 == str2;
-            Console.WriteLine(areEqual);
+        }
+        /// <summary>
+        /// Использование класса DateTime
+        /// Используется при работе с датами
+        /// </summary>
+        static void DateTimeBasics()
+        {
+            DateTime now = DateTime.Now;
+            Console.WriteLine(now.ToString());
 
-            areEqual = string.Equals(str1, str2, StringComparison.Ordinal);
-            Console.WriteLine(areEqual);
+            Console.WriteLine($"It's {now.Date}, {now.Hour}:{now.Minute}");
 
+            DateTime dt = new DateTime(2016, 2, 28);
+            DateTime newDt = dt.AddDays(1);
+
+            Console.WriteLine(newDt);
+
+            TimeSpan ts = now - dt;
+            //ts = now.Subtract(dt);
+            Console.WriteLine(ts.TotalHours);
         }
 
         /// <summary>
-        /// String format
+        /// Массивы (введение)
+        /// </summary>
+        static void ArraysBasics()
+        {
+            int[] a1;
+            a1 = new int[10];
+
+            int[] a2 = new int[5];
+
+            int[] a3 = new int[5] { 1, 3, -2, 7, 11 };
+            //самая короткая запись:
+            int[] a4 = { 1, 3, 2, 4, 5 };
+
+            Console.WriteLine(a4[0]);
+
+            int number = a4[4];
+            Console.WriteLine(number);
+
+            a4[4] = 6;
+            Console.WriteLine(a4[4]);
+            //длинна массива
+            Console.WriteLine(a4.Length);
+            Console.WriteLine(a4[a4.Length - 1]);
+
+            string s1 = "abdtgsdfg";
+            char first = s1[0];
+            char last = s1[s1.Length - 1];
+            Console.WriteLine($"First:{first}. Last:{last}");
+        }
+        /// <summary>
+        /// Немного о классе Math
+        /// </summary>
+        static void MathDemo()
+        {
+            Console.WriteLine(Math.Pow(2,3));
+            Console.WriteLine(Math.Sqrt(9));
+            Console.WriteLine(Math.Sqrt(8));
+
+            Console.WriteLine(Math.Round(1.7));
+            Console.WriteLine(Math.Round(1.4));
+            Console.WriteLine();
+            Console.WriteLine(Math.Round(2.5));
+            Console.WriteLine(Math.Round(2.5, MidpointRounding.ToEven));
+            Console.WriteLine(Math.Round(2.5, MidpointRounding.AwayFromZero));
+
+        }
+        /// <summary>
+        /// Приведение типов переменных и парсинг
+        /// Узкие к широким
+        /// </summary>
+        static void CastingAndParsing()
+        {
+            byte b = 3; // 0000 0011
+            int i = b; // 0000 0000 0000 0000 0000 0000 0000 0011
+            long l = i; //
+
+            float f = i; //3.0
+           // Console.WriteLine(f);
+            
+            b = (byte)i;
+           // Console.WriteLine(b);
+
+            i = (int)f;
+          //  Console.WriteLine(i);
+
+            f = 3.1f;
+            i = (int)f;
+            //Console.WriteLine(i);
+
+            string str = "1";
+            //i = (int)str;
+            i = int.Parse(str); // Используем Parse 
+            //для смены типа значения переменной
+            Console.WriteLine($"Parsed i={i}"); // выведет int 1 а не string 
+
+            int x = 5;
+            int result = x / 2;
+            Console.WriteLine(result);
+
+            double result2 = (double)x / 2;
+        }
+
+        /// <summary>
+        ///Сранение строк
+        /// </summary>
+        static void ComparingStrings()
+        {
+            //string str1 = "abcde";
+            //string str2 = "abcde";
+
+            //bool areEqual = str1 == str2;
+            //Console.WriteLine(areEqual);
+
+            //areEqual = string.Equals(str1, str2, StringComparison.Ordinal);
+            //Console.WriteLine(areEqual);
+
+            string str1 = "Strasse";
+            string str2 = "Straße";
+
+                               //сравнение по байтовой репрезентации посимвольно
+            bool areEqual = string.Equals(str1, str2, StringComparison.Ordinal);
+            Console.WriteLine(areEqual);
+            //лучше не использовать
+            areEqual = string.Equals(str1, str2, StringComparison.InvariantCulture);
+            Console.WriteLine(areEqual);
+            areEqual = string.Equals(str1, str2, StringComparison.CurrentCulture);
+            Console.WriteLine(areEqual);
+        }
+        /// <summary>
+        /// форматирование строк
         /// </summary>
         static void StringFormat()
         {
@@ -34,8 +155,8 @@ namespace Udemy_CSharp
 
             Console.WriteLine(str2);
 
-            string str3 = "My name is \nJohn";
-            string str4 = "I'm \t30";
+            string str3 = "My name is \nJohn"; // n - новая строка
+            string str4 = "I'm \t30"; //t - табуляция
 
 
             Console.WriteLine(str3);
@@ -63,6 +184,7 @@ namespace Udemy_CSharp
 
             Console.OutputEncoding = Encoding.UTF8;
 
+            //12,80 рублей
             double money = 12.8;
             result = string.Format("{0:C}", money);
             result2 = string.Format("{0:C2}", money);

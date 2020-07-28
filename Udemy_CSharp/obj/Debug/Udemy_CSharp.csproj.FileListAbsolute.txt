@@ -1,0 +1,7 @@
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\bin\Debug\Udemy_CSharp.exe.config
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\bin\Debug\Udemy_CSharp.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\bin\Debug\Udemy_CSharp.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\obj\Debug\Udemy_CSharp.csprojAssemblyReference.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\obj\Debug\Udemy_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\obj\Debug\Udemy_CSharp.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\obj\Debug\Udemy_CSharp.pdb
