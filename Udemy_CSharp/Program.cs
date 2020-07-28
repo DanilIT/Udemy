@@ -10,6 +10,7 @@ namespace Udemy_CSharp
     {
         static void Main(string[] args)
         {
+            DateTimeBasics();
 
         }
         /// <summary>
