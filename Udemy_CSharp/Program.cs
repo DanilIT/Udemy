@@ -156,7 +156,7 @@ namespace Udemy_CSharp
 
             Console.WriteLine(str2);
 
-            string str3 = "My name is \nJohn"; // n - новая строка
+            string str3 = "My name is \nJohn"; // \n - новая строка
             string str4 = "I'm \t30"; //t - табуляция
 
 
