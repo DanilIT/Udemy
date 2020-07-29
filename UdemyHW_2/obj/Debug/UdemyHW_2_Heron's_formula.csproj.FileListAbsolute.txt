@@ -1,0 +1,7 @@
+C:\Users\Danil\source\repos\DanilIT\Udemy\UdemyHW_2\bin\Debug\UdemyHW_2.exe.config
+C:\Users\Danil\source\repos\DanilIT\Udemy\UdemyHW_2\bin\Debug\UdemyHW_2.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\UdemyHW_2\bin\Debug\UdemyHW_2.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\UdemyHW_2\obj\Debug\UdemyHW_2_Heron's_formula.csprojAssemblyReference.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\UdemyHW_2\obj\Debug\UdemyHW_2_Heron's_formula.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\UdemyHW_2\obj\Debug\UdemyHW_2.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\UdemyHW_2\obj\Debug\UdemyHW_2.pdb
