@@ -4,3 +4,4 @@ C:\Users\Danil\source\repos\DanilIT\Udemy\UddemyHW_3_Body_Mass_Index\bin\Debug\U
 C:\Users\Danil\source\repos\DanilIT\Udemy\UddemyHW_3_Body_Mass_Index\obj\Debug\UddemyHW_3_Body_Mass_Index.csproj.CoreCompileInputs.cache
 C:\Users\Danil\source\repos\DanilIT\Udemy\UddemyHW_3_Body_Mass_Index\obj\Debug\UddemyHW_3_Body_Mass_Index.exe
 C:\Users\Danil\source\repos\DanilIT\Udemy\UddemyHW_3_Body_Mass_Index\obj\Debug\UddemyHW_3_Body_Mass_Index.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\UddemyHW_3_Body_Mass_Index\obj\Debug\UddemyHW_3_Body_Mass_Index.csprojAssemblyReference.cache

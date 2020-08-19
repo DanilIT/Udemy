@@ -1,0 +1,7 @@
+C:\Users\Danil\source\repos\DanilIT\Udemy\Uddemy_CSharp_3_Control_Flow\bin\Debug\Uddemy_CSharp_3_Control_Flow.exe.config
+C:\Users\Danil\source\repos\DanilIT\Udemy\Uddemy_CSharp_3_Control_Flow\bin\Debug\Uddemy_CSharp_3_Control_Flow.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Uddemy_CSharp_3_Control_Flow\bin\Debug\Uddemy_CSharp_3_Control_Flow.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\Uddemy_CSharp_3_Control_Flow\obj\Debug\Uddemy_CSharp_3_Control_Flow.csprojAssemblyReference.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Uddemy_CSharp_3_Control_Flow\obj\Debug\Uddemy_CSharp_3_Control_Flow.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Uddemy_CSharp_3_Control_Flow\obj\Debug\Uddemy_CSharp_3_Control_Flow.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Uddemy_CSharp_3_Control_Flow\obj\Debug\Uddemy_CSharp_3_Control_Flow.pdb

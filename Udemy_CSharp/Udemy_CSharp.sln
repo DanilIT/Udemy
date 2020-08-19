@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy_CSharp", "Udemy_CSharp.csproj", "{44CEB5BF-123E-4529-90D6-842ACA80BCB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy_CSharp_basics", "Udemy_CSharp_basics.csproj", "{44CEB5BF-123E-4529-90D6-842ACA80BCB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyHW", "..\..\UdemyHW\UdemyHW.csproj", "{7D6A16D4-5970-4D3F-A424-8FC281DEDD01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyHW_2_Heron's_formula", "..\UdemyHW_2\UdemyHW_2_Heron's_formula.csproj", "{B5316924-DC8A-434D-A5BC-B148029CD050}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UddemyHW_3_Body_Mass_Index", "..\UddemyHW_3_Body_Mass_Index\UddemyHW_3_Body_Mass_Index.csproj", "{5F6F39C8-1EA1-45D7-B11C-F69635A09C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy_CSharp_2", "..\Udemy_CSharp_2\Udemy_CSharp_2.csproj", "{38E2B3A6-7D55-42A5-A0A6-AAD706ED775A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uddemy_CSharp_3_Control_Flow", "..\Uddemy_CSharp_3_Control_Flow\Uddemy_CSharp_3_Control_Flow.csproj", "{D0DF5E37-E07D-4BB1-BD10-AE433A65DD31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{5F6F39C8-1EA1-45D7-B11C-F69635A09C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6F39C8-1EA1-45D7-B11C-F69635A09C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6F39C8-1EA1-45D7-B11C-F69635A09C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E2B3A6-7D55-42A5-A0A6-AAD706ED775A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E2B3A6-7D55-42A5-A0A6-AAD706ED775A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E2B3A6-7D55-42A5-A0A6-AAD706ED775A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E2B3A6-7D55-42A5-A0A6-AAD706ED775A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DF5E37-E07D-4BB1-BD10-AE433A65DD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DF5E37-E07D-4BB1-BD10-AE433A65DD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DF5E37-E07D-4BB1-BD10-AE433A65DD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DF5E37-E07D-4BB1-BD10-AE433A65DD31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
