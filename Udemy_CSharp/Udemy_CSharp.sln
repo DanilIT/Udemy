@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy_CSharp_2", "..\Udemy_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uddemy_CSharp_3_Control_Flow", "..\Uddemy_CSharp_3_Control_Flow\Uddemy_CSharp_3_Control_Flow.csproj", "{D0DF5E37-E07D-4BB1-BD10-AE433A65DD31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyHW_4", "..\Fabonacci\UdemyHW_4.csproj", "{ADF13585-83D3-4368-96EB-75349D359AE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D0DF5E37-E07D-4BB1-BD10-AE433A65DD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0DF5E37-E07D-4BB1-BD10-AE433A65DD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0DF5E37-E07D-4BB1-BD10-AE433A65DD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF13585-83D3-4368-96EB-75349D359AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF13585-83D3-4368-96EB-75349D359AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF13585-83D3-4368-96EB-75349D359AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF13585-83D3-4368-96EB-75349D359AE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

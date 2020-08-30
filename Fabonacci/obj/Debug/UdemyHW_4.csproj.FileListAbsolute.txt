@@ -1,0 +1,7 @@
+C:\Users\Danil\source\repos\DanilIT\Udemy\Fabonacci\bin\Debug\Fabonacci.exe.config
+C:\Users\Danil\source\repos\DanilIT\Udemy\Fabonacci\bin\Debug\Fabonacci.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Fabonacci\bin\Debug\Fabonacci.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\Fabonacci\obj\Debug\UdemyHW_4.csprojAssemblyReference.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Fabonacci\obj\Debug\UdemyHW_4.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Fabonacci\obj\Debug\Fabonacci.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Fabonacci\obj\Debug\Fabonacci.pdb
