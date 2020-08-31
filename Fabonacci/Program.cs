@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace UdemyHW_4
 {
@@ -10,13 +7,69 @@ namespace UdemyHW_4
     {
         static void Main(string[] args)
         {
+            string login = "johnsilveer";
+            string password = "qwerty";
+
+            int tries = 1;           
+
+            while (tries <=3)
+            {
+                Console.WriteLine("Please enter yor login: ");
+                string userLogin = Console.ReadLine();
+                Console.WriteLine("Please enter your password: ");
+                string userPassword = Console.ReadLine();
+
+                tries++;
+
+                if (userLogin != login && userPassword != password)
+                {
+                    Console.WriteLine("Wrong password or/and login");
+                    continue;
+                }
+                else
+                {
+                    Console.WriteLine("Enter the System");
+                    break;
+                }
+            }
+
+            if (tries > 3)
+            Console.WriteLine("The number of available tries have been exceeded");
+            
+
+
+
+            // 3 раза запрос пароля         
+            //string login;
+            //string password;
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine("Please enter yor login: ");
+            //    login = Console.ReadLine();
+            //    Console.WriteLine("Please enter your password: ");
+            //    password = Console.ReadLine();
+
+            //    if (login != "johnsilver" && password != "qwerty")
+            //        continue;
+            //    else
+            //    {
+            //        Console.WriteLine("Enter the System");
+            //        break;
+            //    }                    
+            //}
+
+            //Console.WriteLine("The number of available tries have been exceeded!");
+        }
+
+        static void Factorial()
+        {
             Console.WriteLine("Please enter the number of which " +
                 "factorial you want to get ");
             int number = int.Parse(Console.ReadLine());
             long fac = 1;
             for (int i = 1; i <= number; i++)
             {
-                fac *= i;                
+                fac *= i;
             }
 
             // решение через массив:
@@ -38,11 +91,12 @@ namespace UdemyHW_4
             //     fac = i * fac;
             //}
 
-            Console.WriteLine("factorial of " + number + " is " +  fac);
-           
+            Console.WriteLine("factorial of " + number + " is " + fac);
+
         }
+
         /// <summary>
-        /// Вычесление 
+        /// Вычесление среднего числа
         /// </summary>
         static void AverageCounting()
         {
