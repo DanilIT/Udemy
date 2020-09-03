@@ -1,0 +1,7 @@
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp_4_arrays_collections\bin\Debug\Udemy_CSharp_4_arrays_collections.exe.config
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp_4_arrays_collections\bin\Debug\Udemy_CSharp_4_arrays_collections.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp_4_arrays_collections\bin\Debug\Udemy_CSharp_4_arrays_collections.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp_4_arrays_collections\obj\Debug\Udemy_CSharp_4_arrays_collections.csprojAssemblyReference.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp_4_arrays_collections\obj\Debug\Udemy_CSharp_4_arrays_collections.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp_4_arrays_collections\obj\Debug\Udemy_CSharp_4_arrays_collections.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp_4_arrays_collections\obj\Debug\Udemy_CSharp_4_arrays_collections.pdb

@@ -1,0 +1,7 @@
+C:\Users\Danil\source\repos\DanilIT\Udemy\HW_4\bin\Debug\HW_4.exe.config
+C:\Users\Danil\source\repos\DanilIT\Udemy\HW_4\bin\Debug\HW_4.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\HW_4\bin\Debug\HW_4.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\HW_4\obj\Debug\HW_4.csprojAssemblyReference.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\HW_4\obj\Debug\HW_4.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\HW_4\obj\Debug\HW_4.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\HW_4\obj\Debug\HW_4.pdb
