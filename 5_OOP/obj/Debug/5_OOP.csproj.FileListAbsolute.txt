@@ -1,0 +1,7 @@
+C:\Users\Danil\source\repos\DanilIT\Udemy\5_OOP\bin\Debug\5_OOP.exe.config
+C:\Users\Danil\source\repos\DanilIT\Udemy\5_OOP\bin\Debug\5_OOP.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\5_OOP\bin\Debug\5_OOP.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\5_OOP\obj\Debug\5_OOP.csprojAssemblyReference.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\5_OOP\obj\Debug\5_OOP.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\5_OOP\obj\Debug\5_OOP.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\5_OOP\obj\Debug\5_OOP.pdb

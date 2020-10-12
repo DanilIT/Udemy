@@ -1,0 +1,11 @@
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\bin\Debug\Udemy_CSharp.exe.config
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\bin\Debug\Udemy_CSharp.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\bin\Debug\Udemy_CSharp.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\bin\Debug\5_OOP.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\bin\Debug\5_OOP.pdb
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\bin\Debug\5_OOP.exe.config
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\obj\Debug\Udemy_CSharp_basics.csprojAssemblyReference.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\obj\Debug\Udemy_CSharp_basics.csproj.CoreCompileInputs.cache
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\obj\Debug\Udemy_CSharp_basics.csproj.CopyComplete
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\obj\Debug\Udemy_CSharp.exe
+C:\Users\Danil\source\repos\DanilIT\Udemy\Udemy_CSharp\obj\Debug\Udemy_CSharp.pdb

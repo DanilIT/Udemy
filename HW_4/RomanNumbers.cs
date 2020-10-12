@@ -53,13 +53,7 @@ namespace HW_4
             Console.WriteLine("Enter Roman number to check it's arabic value");
 
             var rNumber = Console.ReadLine();
-
-            //Console.WriteLine(RomanNumbers.Parse(rNumber));
-
-            //сделать проверку на корректные римские цифры
-
-            //bool d= map.ContainsKey('V');
-
+                        
             int check = 0;
             for (int i = 0; i < rNumber.Length; i++)
             {

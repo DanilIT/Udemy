@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _5_OOP;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,10 @@ namespace Udemy_CSharp
     {
         static void Main(string[] args)
         {
-            DateTimeBasics();
+            Character c = new Character();
+            c.Hit(10);
+
+            Console.WriteLine(c.Health);
 
         }
         /// <summary>
