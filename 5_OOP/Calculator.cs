@@ -9,7 +9,8 @@ namespace _5_OOP
 {
     class Calculator
     {
-        public bool TryDivide (double divisible, double devisor, out double result)
+        public bool TryDivide (double divisible, 
+            double devisor, out double result)
         {
             result = 0;
             if (devisor == 0)
@@ -29,7 +30,13 @@ namespace _5_OOP
             }
             return sum / numbers.Length;
         }
-
+        /// <summary>
+        /// расчет среднего числа массива
+        /// params дает возможность не указывать тип данных при
+        /// использоввании метода
+        /// </summary>
+        /// <param name="numbers"></param>
+        /// <returns></returns>
         public double Average2(params int[] numbers)
         {
             double sum = 0;

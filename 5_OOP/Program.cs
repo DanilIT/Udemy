@@ -11,7 +11,7 @@ namespace _5_OOP
         static void Main(string[] args)
         {
             Calculator calc = new Calculator();
-            if(calc.TryDivide(10, 0, out double result))
+            if(calc.TryDivide(10, 3, out double result))
             {
                 Console.WriteLine(result);
             }
