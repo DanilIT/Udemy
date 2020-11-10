@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 using System.Xml;
 
 namespace _5_OOP
-{
-    class Calculator
+{    
+    public static class Calculator
     {
-        public bool TryDivide (double divisible, 
+        /// <summary>
+        /// Static делается на класс только(!) если все методы
+        /// в классе тоже статик
+        /// </summary>
+        public static bool TryDivide (double divisible, 
             double devisor, out double result)
         {
             result = 0;
@@ -20,7 +24,7 @@ namespace _5_OOP
             result = divisible / devisor;
             return true;
         }
-        public double Average(int[] numbers)
+        public static double Average(int[] numbers)
         {
             double sum = 0;
 
@@ -37,7 +41,7 @@ namespace _5_OOP
         /// </summary>
         /// <param name="numbers"></param>
         /// <returns></returns>
-        public double Average2(params int[] numbers)
+        public static double Average2(params int[] numbers)
         {
             double sum = 0;
 
@@ -48,23 +52,37 @@ namespace _5_OOP
             return sum / numbers.Length;
         }
 
-        public double CalcTriangleArea(double side1, double side2, double side3)
+        public static double CalcTriangleArea(double side1, double side2, double side3)
         {
             double triPerim = (side1 + side2 + side3) / 2;
             return Math.Sqrt(triPerim * (triPerim - side1) 
                 * (triPerim - side2) * (triPerim - side3));
         }
 
-        public double CalcTriangleArea(double b, double h)
+        public static double CalcTriangleArea(double b, double h)
         {
             return 0.5 * b * h;
         }
         
-        public double CalcTriangleArea(double ab, double ac, int alpha)
+        public static double CalcTriangleArea(double ab, double ac, int alpha, 
+            bool isInRaians = false)
         {
-            double courner = alpha * Math.PI / 180;
-            return 0.5 * ab * ac * Math.Sin(courner);
+            if(isInRaians)
+            {
+                return 0.5 * ab * ac * Math.Sin(alpha);
+            }
+            else
+            {
+                double courner = alpha * Math.PI / 180;
+                return 0.5 * ab * ac * Math.Sin(courner);
+            }            
         }
+
+        //public static double CalcTriangleArea(double ab, double ac, int alpha)
+        //{
+        //    double courner = alpha * Math.PI / 180;
+        //    return 0.5 * ab * ac * Math.Sin(courner);
+        //}
 
     }
 }
