@@ -11,7 +11,21 @@ namespace _5_OOP
     {
         static void Main(string[] args)
         {
-            
+            //ModelXTerminal modelXTerminal = new ModelXTerminal("17");
+            //modelXTerminal.Connect();
+
+            //Shape shape = new Shape();
+
+            Shape[] shapes = new Shape[2];
+            shapes[0] = new Triangle(10, 20, 30);
+            shapes[1] = new Rectangle(5, 10);
+
+            foreach(Shape shape in shapes)
+            {
+                shape.Draw();
+                Console.WriteLine(shape.Perimeter());
+            }
+ 
         }
 
         static void BoxingUndoxing()

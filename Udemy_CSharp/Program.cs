@@ -11,10 +11,7 @@ namespace Udemy_CSharp
     {
         static void Main(string[] args)
         {
-            Character c = new Character();
-            c.Hit(10);
-
-            Console.WriteLine(c.Health);
+           
 
         }
         /// <summary>
@@ -236,11 +233,12 @@ namespace Udemy_CSharp
 
             string replaced = nameConcat.Replace('n', 'z');
             Console.WriteLine(replaced);
+            Console.WriteLine();
 
             string data = "12;28;34;25;64";
             string[] spliData = data.Split(';');
-            //string first = spliData[0];
-            Console.WriteLine(spliData);
+            string first = spliData[0];
+            Console.WriteLine(first);
 
             char[] chars = nameConcat.ToCharArray();
             Console.WriteLine(chars[0]);
